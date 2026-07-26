@@ -1,13 +1,16 @@
-RUNLU Invoice V4.0 Build 002 - Review Center
+RUNLU Invoice V4.0 Build 003 — Month-End Workflow
 
-What's new:
-- Review Center rebuilt as an interactive document center.
-- Preview invoice data before downloading the actual Word file.
-- Preview and edit each email inside the app.
-- Open/download the actual Word attachment and automatically record verification.
-- Review status is recorded automatically; old manual checkbox lists were removed.
-- Review Complete becomes available only after both invoice packages are reviewed.
-- Email edits are saved locally and used by Open Email.
+Main changes:
+- Current Month dashboard plus History only
+- One continuous Review → Send → Archive workflow
+- Word-style invoice preview
+- Outlook-style email preview and editing
+- Parkdale and WTLC reviews completed independently
+- Automatic progress and next-action guidance
+- Pre-flight checks for invoice and email details
+- Correct historical Word filenames and matching email subjects
+- Attachment preparation moved to the send stage
+- Auto-save and month archive lock
 
 Important browser limitation:
-A normal web page cannot automatically attach a local Word file to Outlook. The app generates/downloads the correct Word file and opens a prepared email; add the downloaded file manually before sending.
+A normal web page cannot automatically attach a local Word document to Outlook. During the send stage, first use “Prepare Attachment,” then “Open Email,” and manually attach the correctly named Word file.
