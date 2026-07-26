@@ -1,5 +1,9 @@
-RUNLU Invoice V3.0 Beta 2
+RUNLU Invoice V3.0 Beta 3 — GIMEX Brand Edition
 
-Updated: New GIMEX professional Word templates are now embedded and generated directly by the app.
-Pricing: July 2026 and earlier Admin 2500 / WTLC 2200; August 2026 onward Admin 2700 / WTLC 2400.
-Open index.html to test.
+Updates:
+- GIMEX Logo integrated into the app and both Word templates
+- Removed industry tagline from the logo area
+- Added live invoice previews and email preview
+- Unified navy blue GIMEX branding
+
+Open index.html to run.
