@@ -1,11 +1,9 @@
-RUNLU Invoice V4.0 Build008 - Production Hotfix
+RUNLU Invoice V4.0 Build009 — Smart Month Transition
 
 Changes:
-- Added Email Contacts setup with real To/CC email addresses saved on this device.
-- Mail app now receives actual email addresses instead of display names.
-- Added email validation before Open Email.
-- Send-day yellow reminder automatically hides after both emails are marked sent.
-- Calendar reminder controls hide after all emails are sent or month is completed.
-- Archive action renamed to Complete Month.
-- Completed months show a clean completion card and hide work controls.
-- Attachment recovery workflow remains available.
+- Automatically switches to the new calendar month when the previous workspace is archived.
+- Preserves saved email contacts during the transition.
+- Advances invoice numbering by two per elapsed month.
+- Moves the completed month into History and creates a fresh current-month workspace.
+- If the prior month is unfinished, it stays open and shows a warning instead of switching.
+- Shows a one-time welcome card after an automatic month transition.
