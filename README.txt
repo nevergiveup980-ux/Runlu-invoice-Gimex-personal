@@ -1,9 +1,11 @@
-RUNLU Invoice V4.0 Build007 — Attachment Recovery
+RUNLU Invoice V4.0 Build008 - Production Hotfix
 
-Fixes:
-- Restores a clear Download Word Attachment button on the Send page.
-- Shows whether the attachment has been downloaded on this device.
-- Open Email remains disabled until the Word attachment is downloaded.
-- Mark as Sent remains disabled until both download and email-open steps are complete.
-- Generate Monthly Package prepares the documents without relying on iPhone multiple-download behavior.
-- Keeps Business Calendar and dual reminder features from Build006.
+Changes:
+- Added Email Contacts setup with real To/CC email addresses saved on this device.
+- Mail app now receives actual email addresses instead of display names.
+- Added email validation before Open Email.
+- Send-day yellow reminder automatically hides after both emails are marked sent.
+- Calendar reminder controls hide after all emails are sent or month is completed.
+- Archive action renamed to Complete Month.
+- Completed months show a clean completion card and hide work controls.
+- Attachment recovery workflow remains available.
