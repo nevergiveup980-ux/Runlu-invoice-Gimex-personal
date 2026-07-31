@@ -1,10 +1,9 @@
-RUNLU Invoice V4.0 Build 005 — Clean Send Page
+RUNLU Invoice V4.0 Build007 — Attachment Recovery
 
-Changes:
-- Removed “Download Again” from the normal send workflow.
-- Send stage now shows only “Open Email” and “Mark as Sent.”
-- Word attachments are still generated when the monthly package is prepared.
-- Updated on-screen build label.
-
-Browser limitation:
-A normal web page cannot automatically attach a local Word document to Outlook. Open the prepared email, attach the already-generated Word file from Downloads, send it, then mark it as sent in RUNLU Invoice.
+Fixes:
+- Restores a clear Download Word Attachment button on the Send page.
+- Shows whether the attachment has been downloaded on this device.
+- Open Email remains disabled until the Word attachment is downloaded.
+- Mark as Sent remains disabled until both download and email-open steps are complete.
+- Generate Monthly Package prepares the documents without relying on iPhone multiple-download behavior.
+- Keeps Business Calendar and dual reminder features from Build006.
