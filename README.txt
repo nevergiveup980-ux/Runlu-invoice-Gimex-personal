@@ -1,9 +1,11 @@
-RUNLU Invoice V5.0 Build010 — Workspace Reliability
+RUNLU Invoice V5.0 Build011 — Workspace Polish
 
 Changes:
-- Workspace-style header and current-month status labels
-- NEW renamed to PREPARING
-- Month-specific Today action
-- Ready Check for documents, attachments, contacts, and dates
-- More reliable recovery of saved real email addresses
-- Existing business calendar, reminders, Word templates, and smart month transition preserved
+- Email Contacts moved into a collapsible Email Settings area.
+- Settings opens automatically only when contact setup is required.
+- Saved contacts collapse automatically after saving.
+- Workspace Health now shows clear Ready / Need Setup / Need Download details.
+- Business Calendar now shows a live countdown to the business send day.
+- Today card shows an estimated work time.
+- Browser title simplified to RUNLU Invoice Workspace.
+- Existing smart month transition, Word templates, reminders, review, attachment recovery, and history remain intact.
