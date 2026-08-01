@@ -1,11 +1,14 @@
-RUNLU Invoice V5.0 Build011 — Workspace Polish
+RUNLU Invoice V5.0 Build012 - Master Polish MP-01
 
-Changes:
-- Email Contacts moved into a collapsible Email Settings area.
-- Settings opens automatically only when contact setup is required.
-- Saved contacts collapse automatically after saving.
-- Workspace Health now shows clear Ready / Need Setup / Need Download details.
-- Business Calendar now shows a live countdown to the business send day.
-- Today card shows an estimated work time.
-- Browser title simplified to RUNLU Invoice Workspace.
-- Existing smart month transition, Word templates, reminders, review, attachment recovery, and history remain intact.
+Based on Build011 Workspace Polish.
+
+MP-01 invoice template refinements:
+- Unified the visual grid across header, billing details, service summary, line items, totals, and footer.
+- Aligned the left and right edges of major content blocks.
+- Balanced BILL TO and INVOICE DATE columns.
+- Rebalanced line-item column widths for cleaner reading.
+- Locked totals to the same right-hand page edge.
+- Refined footer spacing and visual center.
+- No invoice workflow or business logic changes.
+
+Generated documents retain the same placeholders and automatic monthly values.
